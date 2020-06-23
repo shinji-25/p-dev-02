@@ -1,13 +1,51 @@
 /* ==========================================================================
     ヘッダー
     ========================================================================== */
-.l-header {
+/* PC */
+@media (min-width: 960px) {
+
 }
+
+.l-header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #fff;
+}
+
+.l-header__logo {
+    height: 100%;
+    width: 140px;
+    padding: 10px 0 10px 20px;
+}
+
+.l-header__menu ul {
+    display: flex;
+    height: 100%;
+}
+
+.l-header__menu li {
+    padding: 10px 10px;
+}
+
+.l-header__menu li a {
+    font-size: .8rem;
+}
+
+.l-header__menu li a:hover {
+    opacity: 0.6;
+    transition: all 0.3s;
+}
+
 
 /* ==========================================================================
     メインビジュアル
     ========================================================================== */
-.p-mainVisual {
+.p-mainVisual img {
+    vertical-align: bottom;
+    margin-top: 50px;
 }
 
 /* ==========================================================================
