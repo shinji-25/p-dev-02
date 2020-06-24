@@ -40,32 +40,83 @@
     
     .p-news__titleLine {
         margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
         width: 50px;
-        height: 10px;
-        background-color: blue;
+        height: 2px;
+        background-color: #000088;
     }
 
+    .p-news ul {
+        list-style: none;
+    }
 
     .p-news__topic {
         display: flex;
         justify-content: space-between 2px;
-        border-bottom: dodgerblue 1px solid;
-        width: 680px;
+        border-bottom: #000088 1px solid;
+        width: 760px;
+        height: 60px;
+        line-height: 60px;
         margin: 0 auto;
     }
 
+    .p-news__date {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     .p-news__information {
-        color: dodgerblue;
+        color: #000088;
+        margin-right: 20px;
     }
 }
-
 
 /* ==========================================================================
     アクセス
     ========================================================================== */
 .p-access {
+}
+
+@media screen and (min-width: 960px) {
+    .p-access {
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    .p-access h2 {
+        text-align: center;
+    }
+
+    .p-access__titleLine {
+        margin: 0 auto;
+        margin-bottom: 60px;
+        width: 50px;
+        height: 2px;
+        background-color: #000088;
+    }
+
+    .p-access__information {
+        display: flex;
+    }
+
+    .p-access__googleMap {
+        margin-left: 150px;
+    }
+
+    .p-access__information ul {
+        list-style: none;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .p-access__timeRequired {
+        margin-bottom: 20px;
+    }
+
+    .p-access__destination {
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
 }
 
 /* ==========================================================================
