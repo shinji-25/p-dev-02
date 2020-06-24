@@ -1,0 +1,73 @@
+.p-room {
+  width: auto;
+  margin: 0 10rem;
+
+  .p-room-title {
+    text-align: center;
+  }
+
+  .p-room-line {
+    border: 1px solid #005988;
+    text-align: center;
+    margin: 0 33rem;
+  }
+
+  .p-room-contents {
+    margin: 0 auto;
+
+    .p-room-flex {
+      display: flex;
+      margin: 5rem 0;
+
+      .p-room-explanation {
+        margin: 0 auto;
+        padding: 0 5rem 0 0;
+        width: 100%;
+
+         .p-room-name {
+           margin: 1rem 0;
+         }
+
+         p {
+           overflow-wrap: break-word;
+           margin-bottom: 1.5rem;
+         }
+
+         .more-button {
+           border: 1px solid #005988;
+           padding: .5rem 5rem;
+           text-align: center;
+           position: relative;
+
+           &::before {
+             content: "";
+             width: 30%;
+             display: block;
+             border: .1px solid #005988;
+             position: absolute;
+             top: 50%;
+             right: -10%;
+           }
+         }
+      }
+
+      .item-1 {
+        order: 2;
+        padding: 0 0 0 5rem;
+      }
+
+      .p-room-image {
+        margin: 0 auto;
+
+        img {
+          object-fit: cover;
+        }
+      }
+
+      .item-2 {
+        order: 1;
+      }
+    }
+  }
+
+}
