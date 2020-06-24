@@ -7,7 +7,7 @@
 }
 
 .l-header {
-    height: 50px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -17,21 +17,19 @@
 
 .l-header__logo {
     height: 100%;
-    width: 140px;
-    padding: 10px 0 10px 20px;
+    width: 160px;
+    margin-left: 20px;
 }
 
 .l-header__menu ul {
     display: flex;
     height: 100%;
+    padding-right: 20px;
 }
 
 .l-header__menu li {
-    padding: 10px 10px;
-}
-
-.l-header__menu li a {
-    font-size: .8rem;
+    padding: 0 10px;
+    line-height: 80px;
 }
 
 .l-header__menu li a:hover {
