@@ -25,8 +25,42 @@
 /* ==========================================================================
     ニュース
     ========================================================================== */
-.p-news {
+.p-news{
 }
+
+@media screen and (min-width: 960px) {
+    .p-news {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .p-news h2 {
+        text-align: center;
+    }
+    
+    .p-news__titleLine {
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        width: 50px;
+        height: 10px;
+        background-color: blue;
+    }
+
+
+    .p-news__topic {
+        display: flex;
+        justify-content: space-between 2px;
+        border-bottom: dodgerblue 1px solid;
+        width: 680px;
+        margin: 0 auto;
+    }
+
+    .p-news__information {
+        color: dodgerblue;
+    }
+}
+
 
 /* ==========================================================================
     アクセス
