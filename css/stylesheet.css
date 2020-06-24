@@ -19,8 +19,87 @@
 /* ==========================================================================
     ルーム
     ========================================================================== */
-.p-room {
-}
+    .p-room {
+        width: auto;
+        margin: 0 10rem;
+      }
+      
+      .p-room .p-room-title {
+        text-align: center;
+      }
+      
+      .p-room .p-room-line {
+        border: 1px solid #005988;
+        text-align: center;
+        margin: 0 33rem;
+      }
+      
+      .p-room .p-room-contents {
+        margin: 0 auto;
+      }
+      
+      .p-room .p-room-contents .p-room-flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 5rem 0;
+      }
+      
+      .p-room .p-room-contents .p-room-flex .p-room-explanation {
+        margin: 0 auto;
+        padding: 0 5rem 0 0;
+        width: 100%;
+      }
+      
+      .p-room .p-room-contents .p-room-flex .p-room-explanation .p-room-name {
+        margin: 1rem 0;
+      }
+      
+      .p-room .p-room-contents .p-room-flex .p-room-explanation p {
+        overflow-wrap: break-word;
+        margin-bottom: 1.5rem;
+      }
+      
+      .p-room .p-room-contents .p-room-flex .p-room-explanation .more-button {
+        border: 1px solid #005988;
+        padding: .5rem 5rem;
+        text-align: center;
+        position: relative;
+      }
+      
+      .p-room .p-room-contents .p-room-flex .p-room-explanation .more-button::before {
+        content: "";
+        width: 30%;
+        display: block;
+        border: .1px solid #005988;
+        position: absolute;
+        top: 50%;
+        right: -10%;
+      }
+      
+      .p-room .p-room-contents .p-room-flex .item-1 {
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+        padding: 0 0 0 5rem;
+      }
+      
+      .p-room .p-room-contents .p-room-flex .p-room-image {
+        margin: 0 auto;
+      }
+      
+      .p-room .p-room-contents .p-room-flex .p-room-image img {
+        -o-object-fit: cover;
+           object-fit: cover;
+      }
+      
+      .p-room .p-room-contents .p-room-flex .item-2 {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+      }
+      /*# sourceMappingURL=stylesheet.css.map */
+      
 
 /* ==========================================================================
     ニュース
