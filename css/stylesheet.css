@@ -61,13 +61,101 @@
 /* ==========================================================================
     ニュース
     ========================================================================== */
-.p-news {
+.p-news{
+}
+
+@media screen and (min-width: 960px) {
+    .p-news {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .p-news h2 {
+        text-align: center;
+    }
+    
+    .p-news__titleLine {
+        margin: 0 auto;
+        margin-bottom: 60px;
+        width: 50px;
+        height: 2px;
+        background-color: #000088;
+    }
+
+    .p-news ul {
+        list-style: none;
+    }
+
+    .p-news__topic {
+        display: flex;
+        justify-content: space-between 2px;
+        border-bottom: #000088 1px solid;
+        width: 760px;
+        height: 60px;
+        line-height: 60px;
+        margin: 0 auto;
+    }
+
+    .p-news__date {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .p-news__information {
+        color: #000088;
+        margin-right: 20px;
+    }
 }
 
 /* ==========================================================================
     アクセス
     ========================================================================== */
 .p-access {
+}
+
+@media screen and (min-width: 960px) {
+    .p-access {
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    .p-access h2 {
+        text-align: center;
+    }
+
+    .p-access__titleLine {
+        margin: 0 auto;
+        margin-bottom: 60px;
+        width: 50px;
+        height: 2px;
+        background-color: #000088;
+    }
+
+    .p-access__information {
+        width: 940px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .p-access__googleMap {
+        width: 615px;
+    }
+
+    .p-access__information ul {
+        list-style: none;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .p-access__timeRequired {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .p-access__destination {
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
 }
 
 /* ==========================================================================
