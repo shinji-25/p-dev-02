@@ -96,11 +96,13 @@
     }
 
     .p-access__information {
+        width: 940px;
         display: flex;
+        margin: 0 auto;
     }
 
     .p-access__googleMap {
-        margin-left: 150px;
+        width: 615px;
     }
 
     .p-access__information ul {
@@ -110,6 +112,7 @@
     }
 
     .p-access__timeRequired {
+        width: 250px;
         margin-bottom: 20px;
     }
 
