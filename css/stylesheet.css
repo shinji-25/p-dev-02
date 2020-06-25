@@ -20,8 +20,8 @@
     ルーム
     ========================================================================== */
     .p-room {
-        width: auto;
-        margin: 0 10rem;
+        max-width: 75rem;
+        margin: 0 auto;
       }
       
       .p-room .p-room-title {
@@ -29,9 +29,9 @@
       }
       
       .p-room .p-room-line {
+        max-width: 2.5rem;
         border: 1px solid #005988;
-        text-align: center;
-        margin: 0 33rem;
+        margin: 0 auto;
       }
       
       .p-room .p-room-contents {
