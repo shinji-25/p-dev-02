@@ -32,8 +32,8 @@
     transition: all 0.3s;
 }
 
-/* PC */
-@media (min-width: 960px) {
+/* PC用 */
+@media screen and (min-width: 960px) {
     #l-header__show-menu,
     #l-header__hide-menu,
     #l-header__cover {
@@ -41,8 +41,8 @@
     }
 }
 
-/* Tab, SP */
-@media (max-width: 959px) {
+/* Tab, SP用 */
+@media screen and (max-width: 959px) {
     .l-header nav {
         display: block;
         width: 220px;
@@ -163,6 +163,16 @@
 .p-mainVisual img {
     vertical-align: bottom;
     margin-top: 50px;
+}
+
+/* SP用 */
+@media screen and (max-width: 559px) {
+    .p-mainVisual img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        object-position: 47% 50%;
+    }
 }
 
 /* ==========================================================================
