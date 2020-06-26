@@ -1,7 +1,6 @@
 /* ==========================================================================
     ヘッダー
     ========================================================================== */
-    
 .l-header {
     height: 80px;
     width: 100%;
@@ -157,6 +156,7 @@
         background: #0624c9;
     }
 }
+
 /* ==========================================================================
     メインビジュアル
     ========================================================================== */
@@ -174,7 +174,6 @@
 /* ==========================================================================
     ルーム
     ========================================================================== */
-
 /* PC用 */
 
     .p-room {
@@ -257,7 +256,6 @@
                 order: 1;
       }
       /*# sourceMappingURL=stylesheet.css.map */
-      
 
 /* SP用 */
 
@@ -297,7 +295,12 @@
 /* ==========================================================================
     ニュース
     ========================================================================== */
-.p-news{
+.p-news {
+}
+
+.p-news li a:hover {
+    opacity: 0.6;
+    transition: all 0.3s;
 }
 
 @media screen and (min-width: 960px) {
@@ -309,7 +312,7 @@
     .p-news h2 {
         text-align: center;
     }
-    
+
     .p-news__titleLine {
         margin: 0 auto;
         margin-bottom: 60px;
@@ -340,6 +343,68 @@
     .p-news__information {
         color: #000088;
         margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 559px) {
+    .p-news {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .p-news h2 {
+        text-align: center;
+    }
+
+    .p-news__titleLine {
+        margin: 0 auto;
+        margin-bottom: 60px;
+        width: 50px;
+        height: 2px;
+        background-color: #000088;
+    }
+
+    .p-news ul {
+        list-style: none;
+    }
+
+    .p-news__topic {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between 2px;
+        border-bottom: #000088 1px solid;
+        width: 90%;
+        height: 120px;
+        margin: 0 auto;
+    }
+
+    .p-news__adjustTopic {
+        height: 90px;
+    }
+
+    .p-news__date {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 40px;
+        line-height: 60px;
+    }
+
+    .p-news__information {
+        color: #000088;
+        margin-right: 20px;
+        height: 40px;
+        line-height: 60px;
+    }
+
+    .p-news__headline {
+        width: 330px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+
+    .p-news_adjustHeadline {
+        line-height: 20px;
     }
 }
 
@@ -381,6 +446,56 @@
         list-style: none;
         margin-top: 30px;
         margin-left: 50px;
+    }
+
+    .p-access__timeRequired {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .p-access__destination {
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 559px) {
+    .p-access {
+        margin-top: 120px;
+        width: 100%;
+    }
+
+    .p-access h2 {
+        text-align: center;
+    }
+
+    .p-access__titleLine {
+        margin: 0 auto;
+        margin-bottom: 45px;
+        width: 50px;
+        height: 2px;
+        background-color: #000088;
+    }
+
+    .p-access__information {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .p-access__googleMap {
+        width: 100%;
+        height: 320px;
+        position: relative;
+    }
+
+    .p-access__googleMap iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .p-access__information ul {
+        list-style: none;
+        margin-top: 45px;
     }
 
     .p-access__timeRequired {
