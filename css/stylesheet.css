@@ -55,6 +55,9 @@
 /* ==========================================================================
     ルーム
     ========================================================================== */
+
+/* PC用 */
+
     .p-room {
         max-width: 75rem;
         margin: 0 auto;
@@ -136,6 +139,41 @@
       }
       /*# sourceMappingURL=stylesheet.css.map */
       
+
+/* SP用 */
+
+    @media screen and (max-width: 559px) {
+        .p-room {
+            width: 35rem;
+            max-width: 90%;
+            margin: 2rem auto 0;
+        }
+
+        .p-room .p-room-contents .p-room-flex {
+            display: block;
+            width: 100%;
+        }
+
+        .p-room .p-room-contents .p-room-flex .p-room-explanation {
+            padding: 0;
+        }
+
+        .p-room .p-room-contents .p-room-flex .p-room-explanation p {
+            line-height: 2.6;
+        }
+
+        .more-button {
+            width: 80%;
+            margin: 3rem auto;
+            display: block;
+            padding: .5rem 5rem;
+        }
+
+        .p-room-image {
+            margin: 0;
+        }
+
+    }
 
 /* ==========================================================================
     ニュース
