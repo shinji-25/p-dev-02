@@ -61,10 +61,10 @@
 }
 
 .p-concept-flex {
-    padding: 0 400px;
+    max-width: 600px;
     display: flex;
     justify-content: space-around;
-    margin: 40px 0;
+    margin: 40px auto;
 }
 
 .p-concept-icon {
