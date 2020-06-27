@@ -333,6 +333,7 @@
     transition: all 0.3s;
 }
 
+/* PC用 */
 @media screen and (min-width: 960px) {
     .p-news {
         margin: 0 auto;
@@ -376,6 +377,62 @@
     }
 }
 
+/* TAB用 */
+@media screen and (min-width: 560px) and (max-width: 959px) {
+    .p-news {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .p-news h2 {
+        text-align: center;
+    }
+
+    .p-news__titleLine {
+        margin: 0 auto;
+        margin-bottom: 60px;
+        width: 50px;
+        height: 2px;
+        background-color: #000088;
+    }
+
+    .p-news ul {
+        list-style: none;
+    }
+
+    .p-news__topic {
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: #000088 1px solid;
+        width: 90%;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .p-news__date {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 40px;
+        line-height: 70px;
+    }
+
+    .p-news__information {
+        color: #000088;
+        margin-right: 20px;
+        height: 40px;
+        line-height: 70px;
+    }
+
+    .p-news__headline {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        width: 95%;
+        height: 30px;
+        line-height: 40px;
+    }
+}
+
+/* SP用 */
 @media screen and (max-width: 559px) {
     .p-news {
         margin: 0 auto;
@@ -444,6 +501,7 @@
 .p-access {
 }
 
+/* PC用 */
 @media screen and (min-width: 960px) {
     .p-access {
         margin-top: 80px;
@@ -489,6 +547,58 @@
     }
 }
 
+/* TAB用 */
+@media screen and (min-width: 560px) and (max-width: 959px) {
+    .p-access {
+        margin-top: 120px;
+        width: 100%;
+    }
+
+    .p-access h2 {
+        text-align: center;
+    }
+
+    .p-access__titleLine {
+        margin: 0 auto;
+        margin-bottom: 45px;
+        width: 50px;
+        height: 2px;
+        background-color: #000088;
+    }
+
+    .p-access__information {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .p-access__googleMap {
+        width: 100%;
+        height: 320px;
+        position: relative;
+    }
+
+    .p-access__googleMap iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .p-access__information ul {
+        list-style: none;
+        margin-top: 45px;
+    }
+
+    .p-access__timeRequired {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .p-access__destination {
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+}
+
+/* SP用 */
 @media screen and (max-width: 559px) {
     .p-access {
         margin-top: 120px;
