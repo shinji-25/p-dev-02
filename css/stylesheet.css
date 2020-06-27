@@ -175,6 +175,28 @@
 
     }
 
+
+/* tab用 */
+
+    @media screen and (max-width: 959px) {
+        .p-room {
+            width: 60rem;
+            max-width: 98%;
+            margin: 2rem auto 0;
+        }
+
+        .p-room-explanation {
+            max-width: 90%;
+        }
+
+        .p-room-image img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+
+    }
+
 /* ==========================================================================
     ニュース
     ========================================================================== */
