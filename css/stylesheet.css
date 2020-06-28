@@ -202,6 +202,23 @@
     height: 70px;
 }
 
+/* タブレット用 */
+@media screen and (max-width: 959px) {
+    .p-concept {
+        margin: 2rem auto 0;
+        max-width: 90%;
+    }
+    }
+    
+    
+    /* スマホ用 */
+    @media screen and (max-width: 559px) {
+    .p-concept {
+        margin: 2rem auto 0;
+        max-width: 90%;
+    }
+    }
+
 /* ==========================================================================
     ルーム
     ========================================================================== */
