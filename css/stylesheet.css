@@ -692,13 +692,6 @@
     padding: 10px 0;
 }
 
-.l-footer__flex {
-    max-width: 1000px;
-    margin: 20px auto;
-    display: flex;
-    justify-content: space-between;
-}
-
 .l-footer__access {
     padding-left: 20px;
 }
@@ -740,4 +733,55 @@
     transition: all 0.3s;
 }
 
+/* PC用 */
+@media screen and (min-width: 960px) {
+    .l-footer__flex {
+        max-width: 1000px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
 
+
+/* タブレット用 */
+@media screen and (min-width: 560px) and (max-width: 959px) {
+    .l-footer {
+        text-align: center;
+    }
+
+    .l-footer__menu {
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+    }
+}
+
+/* スマホ用 */
+@media screen and (max-width: 559px) {
+    .l-footer {
+
+    }
+
+    .l-footer__flex {
+        margin-top: 20px;
+    }
+
+    .l-footer__menu {
+        margin: 0 10px 10px 10px;
+    }
+
+    .l-footer__menu ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .l-footer__menu li {
+        padding-right: 20%;
+        height: 30px;
+    }
+
+    .l-footer p {
+        margin-top: 20px;
+    }
+}
