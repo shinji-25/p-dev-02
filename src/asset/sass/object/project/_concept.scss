@@ -1,0 +1,35 @@
+.p-concept {
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    @include tab-layout() {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    @include sp-layout() {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    &__imageWrap {
+        max-width: 400px;
+        margin: 0 auto 50px;
+        display: flex;
+        justify-content: space-around;
+
+        @include tab-layout() {
+            margin-bottom: 40px;
+        }
+        @include sp-layout() {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__image {
+        width: 20%;
+    }
+
+    &__text {
+        text-align: center;
+    }
+}
